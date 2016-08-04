@@ -1,0 +1,144 @@
+/* ------------ Globals ------------ */
+
+html {}
+body {
+  font-family: orator std;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  padding-bottom: 40px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ul {
+  margin: 0px;
+}
+
+p {
+  margin: 50px 50px 50px 50px;
+}
+
+/* ------------ Carousel ------------ */
+
+
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner  img {
+  width: 100%;
+  margin: auto;
+  min-height:200px;
+  max-width: 75%;
+}
+
+
+/* ------------------------- */
+
+/* ------------ navbar ------------ */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* ------------------------- */
+
+/* ------------ about ------------ */
+/*#about {
+  text-align: center;
+}
+#about .home-header {
+  text-align: center;
+}
+#about .img-block {
+  border: 1px solid black;
+}
+#about .img-block div {
+  height: 300px;
+  background-size: cover;
+
+}
+
+#about .img-block a {
+  display: block;
+}*/
+
+
+/* ------------ Img Block ------------ */
+.img-blocks {
+  padding: 20px 0;
+}
+
+.img-block {
+  display: block;
+  padding: 5px;
+
+}
+
+.img-block a {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 300px;
+  border: 1px solid #f7f7f7;
+}
+
+/* ------------------------- */
+
+
+/* ------------ Header ------------ */
+
+#header {
+ border-radius: 0;
+}
+
+
+
+
+
+/* ------------ Banner ------------ */
+.banner {
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  padding-top: 10px;
+}
+.banner h1 {
+  border-bottom: 1px solid #AEB3B5;
+  display: inline-block;
+  text-align: center;
+  padding: 0 15px 15px;
+  margin-bottom: 30px;
+}
+
+/* ------------ Colorbox ------------ */
+/*#colorbox {
+
+}
+
+#cboxWrapper {
+
+}
+
+#cboxMiddleLeft, #cboxMiddleRight {
+  display: none;
+}
+
+#cboxTopLeft, #cboxTopCenter, #cboxTopRight {
+  display: none;
+}
+
+#cboxBottomLeft, #cboxBottomCenter, #cboxBottomRight {
+  display: none;
+}
+
+#cboxLoadedContent {
+  margin: 0;
+}
+
+#cboxClose {
+  top: 0;
+}*/
