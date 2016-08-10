@@ -136,6 +136,16 @@ footer {
   margin-bottom: 30px;
 }
 
+/* ------------ Services ------------ */
+.services {
+  /*margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;*/
+  padding-top: 50px;
+  text-align: center;
+}
+
 /* ------------ Colorbox ------------ */
 /*#colorbox {
 
