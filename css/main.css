@@ -19,6 +19,28 @@ p {
   margin: 50px 50px 50px 50px;
 }
 
+/* ------------ helpers ------------ */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.font-bold {
+  font-weight: 800;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* ------------ Carousel ------------ */
 
 
