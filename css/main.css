@@ -19,28 +19,6 @@ p {
   margin: 50px 50px 50px 50px;
 }
 
-/* ------------ helpers ------------ */
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.lowercase {
-  text-transform: lowercase;
-}
-
-.font-bold {
-  font-weight: 800;
-}
-
-.font-thin {
-  font-weight: 100;
-}
-
-.text-center {
-  text-align: center;
-}
-
 /* ------------ Carousel ------------ */
 
 
@@ -134,16 +112,6 @@ footer {
   text-align: center;
   padding: 0 15px 15px;
   margin-bottom: 30px;
-}
-
-/* ------------ Services ------------ */
-.services {
-  /*margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;*/
-  padding-top: 50px;
-  text-align: center;
 }
 
 /* ------------ Colorbox ------------ */
