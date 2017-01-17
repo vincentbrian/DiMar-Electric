@@ -8,21 +8,90 @@
   <link href="css/vendor/colorbox.css" rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
+
+  <style>
+  .parallax {
+      /* The image used */
+      background-image: url("images/Hero_img.png");
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .parallax2 {
+      /* The image used */
+      background-image: url("images/wire_img.png");
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  </style>
 </head>
 
 <body>
+  <div id="navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand page-scroll" href="#page-top">DiMar Electric</a>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" class="active"><a href="#home">Home</a></li>
+        <li role="presentation"><a href="#profile">Profile</a></li>
+        <li role="presentation"><a href="#projects">Projects</a></li>
+        <li role="presentation"><a href="#">E-mail</a></li>
+      </ul>
+    </div>
+</div>
 
-  <ul class="nav nav-tabs">
-    <li role="presentation" class="active"><a href="index.html">Home</a></li>
-    <li role="presentation"><a href="about.html">Profile</a></li>
-    <li role="presentation"><a href="project.html">Projects</a></li>
-    <li role="presentation"><a href="#">E-mail</a></li>
-  </ul>
+<div id="content">
+  <div class="parallax"></div>
 
-  <div class="page-header">
-    <h1>DiMar Electric <small>Mark Vincent</small></h1>
-  </div>
+  <section id="home">
+    <div style="height:300px;background-color:red;font-size:36px">
+    Scroll Up and Down this page to see the parallax scrolling effect.
+    This div is just here to enable scrolling.
+    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+  </section>
 
+  <div class="parallax"></div>
+  <section id="about">
+    <div style="height:300px;background-color:red;font-size:36px">
+    Scroll Up and Down this page to see the parallax scrolling effect.
+    This div is just here to enable scrolling.
+    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+  </section>
+
+  <div class="parallax2"></div>
+  <section id="profile">
+    <div style="height:300px;background-color:red;font-size:36px">
+    Scroll Up and Down this page to see the parallax scrolling effect.
+    This div is just here to enable scrolling.
+    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+  </section>
+
+  <div class="parallax2"></div>
+  <section id="projects">
+    <div style="height:300px;background-color:red;font-size:36px">
+    Scroll Up and Down this page to see the parallax scrolling effect.
+    This div is just here to enable scrolling.
+    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+  </section>
+
+</div>
 
 
 
