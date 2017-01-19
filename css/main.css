@@ -7,6 +7,13 @@ body, html {
   color: #777;
 }
 
+.section {
+  text-align: center;
+  height: 250px;
+  background-color: white;
+
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.65;
@@ -55,7 +62,19 @@ h3 {
   color: #111;
 }
 
+#navbar-fixed-top {
+  position: fixed;
+
+  background-color: white;
+  width: 100%;
+}
+#content {
+  margin-top:
+}
+
+
 .navbar-default {
+
   display: inline;
 }
 
@@ -107,10 +126,7 @@ footer {
 /* ------------------------- */
 
 /* ------------ navbar ------------ */
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-}
+
 
 
 /* ------------------------- */
