@@ -57,6 +57,10 @@ body, html {
 /* ------------------------- */
 
 /* ------------ navbar ------------ */
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
 .navbar-toggle .icon-bar:nth-of-type(2) {
 	  top: 1px;
 }
@@ -66,6 +70,7 @@ body, html {
 }
 
 .navbar-toggle .icon-bar {
+  background-color: black;
 	  position: relative;
 	  transition: all 500ms ease-in-out;
 }
@@ -84,9 +89,13 @@ body, html {
 	  transform: rotate(-45deg);
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: black;
+
+.nav .navbar-nav ul li{
+  text-align: center;
 }
+
+<div class="navbar-collapse collapse navbar-right">
+  <ul class="nav navbar-nav ">
 
 
 /* ------------------------- */
