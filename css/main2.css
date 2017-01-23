@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.section {
+  text-align: center;
+  height: 250px;
+  background-color: white;
+  padding-top: 30px;
+
+}
+
+.navbar-brand {
+  float: left;
+  padding: 10px;
+}
+
+.navbar-fixed-top {
+
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+.navbar-fixed-top ul li a {
+    text-decoration: none;
+    padding: 10px;
+
+}
+.navbar-right {
+  text-align: right;
+}
+
+.navbar-fixed-top ul li  {
+
+  list-style: none;
+  display: inline;
+
+  {
