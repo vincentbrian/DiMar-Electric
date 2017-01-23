@@ -5,6 +5,8 @@ body, html {
   color: #777;
 }
 
+
+
 .section {
   text-align: center;
   height: 250px;
@@ -16,12 +18,16 @@ body, html {
 .navbar-brand {
   float: left;
   padding: 10px;
+  font-family: Rockwell-Bold;
+  font-size: 26.39px;
+  color: #F1FFFF;
+  text-decoration: none;
 }
 
 .navbar-fixed-top {
 
   position: fixed;
-  background-color: white;
+  background: #101D2D;
   width: 100%;
 }
 .navbar-fixed-top ul li a {
@@ -29,13 +35,45 @@ body, html {
     padding: 10px;
 
 }
+.navbar-right a {
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+  color: #F1FFFF;
+  letter-spacing: 1.45px;
+}
 .navbar-right {
+
   text-align: right;
+
 }
 
 .navbar-fixed-top ul li  {
 
   list-style: none;
   display: inline;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Montserrat-Regular;
+    font-size: 36px;
+    color: #F1FFFF;
+    line-height: 50px;
+  }
 
-  {
+.caption2 {
+    position: absolute;
+    left: 0;
+    bottom: -44%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Montserrat-Regular;
+    font-size: 36px;
+    color: #F1FFFF;
+    line-height: 50px;
+  }
