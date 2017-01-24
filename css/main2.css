@@ -2,17 +2,18 @@ body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+  color: #F1FFFF;
 }
 
-#home .section {
-  color: #F1FFFF;
-  background-color: #05756B;
+#home  {
+  background-color:#05756b;
 }
 
 #home .section > h2 > p {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .section {
@@ -21,6 +22,16 @@ body, html {
   background-color: white;
   padding-top: 30px;
 
+}
+.service-container {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin: 10px;
+}
+
+.section1 {
+  display: inline-block;;
 
 }
 
@@ -34,7 +45,7 @@ body, html {
 }
 
 .navbar-fixed-top {
-
+  z-index: 100;
   position: fixed;
   background: #101D2D;
   width: 100%;
