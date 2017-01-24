@@ -5,21 +5,29 @@ body, html {
   color: #777;
 }
 
+#home .section {
+  color: #F1FFFF;
+  background-color: #05756B;
+}
 
+#home .section > h2 > p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 .section {
   text-align: center;
   height: 250px;
   background-color: white;
   padding-top: 30px;
-  padding:0px 10px 0px 10px;
+
 
 }
 
 .navbar-brand {
   float: left;
   padding: 10px;
-  font-family: Rockwell-Bold;
+  font-family: "Rockwell-Bold", sans-serif;;
   font-size: 26.39px;
   color: #F1FFFF;
   text-decoration: none;
@@ -37,7 +45,8 @@ body, html {
 
 }
 .navbar-right a {
-  font-family: Montserrat-Regular;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #F1FFFF;
   letter-spacing: 1.45px;
