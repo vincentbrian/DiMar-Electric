@@ -19,14 +19,14 @@ body, html {
 .section {
   text-align: center;
   height: 250px;
-  background-color: white;
+  background-color: #05756b;
   padding-top: 30px;
 
 }
 .service-container {
   display: inline-block;
   float: left;
-  width: 30%;
+  width: 300px;
   margin: 10px;
 }
 
