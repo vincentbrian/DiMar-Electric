@@ -2,14 +2,15 @@ body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #F1FFFF;
+  color: black;
 }
 
 #home  {
   background-color:#05756b;
 }
 
-#home .section > h2 > p {
+#home .section1 > h2 > p {
+
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 0px;
@@ -19,10 +20,12 @@ body, html {
 .section {
   text-align: center;
   height: 250px;
-
+  color: #113361;
   padding-top: 30px;
 
 }
+
+
 .service-container {
   display: inline-block;
   float: left;
@@ -31,6 +34,7 @@ body, html {
 }
 
 .section1 {
+  color: w
   display: inline-block;;
 
 }
