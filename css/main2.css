@@ -166,3 +166,13 @@ body, html {
   line-height: 50px;
 
   }
+
+  /* ------------ hamburger ------------ */
+  ul.navbar-right li {
+   display: none;
+ }
+
+  ul.navbar-right li.icon {
+     float: right;
+     display: inline-block;
+   }

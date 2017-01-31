@@ -64,6 +64,9 @@
         <li class="active">
           <a href="mailto:dimarelectric@yahoo.com">e-mail</a>
         </li>
+        <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
   		</ul>
     </div>
   </div>
@@ -226,6 +229,14 @@
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/jquery.colorbox-min.js"></script>
 <script>
+function myFunction() {
+    var x = document.getElementById("myNavbar-right");
+    if (x.className === "navbar-right") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar-right";
+    }
+}
   $(function() {
     $('.img-block a').colorbox({
       maxWidth: '80%',
