@@ -28,13 +28,13 @@ body, html {
 
 .service-container {
   display: inline-block;
-  float: left;
+  
   width: 300px;
   margin: 10px;
 }
 
 .section1 {
-  color: w
+  color:white;
   display: inline-block;;
 
 }
