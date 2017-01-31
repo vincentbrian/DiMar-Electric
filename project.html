@@ -1,130 +1,244 @@
 <!DOCTYPE html>
-
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+  <meta charset="utf-8">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main2.css">
+  <!-- Vendor CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="css/vendor/colorbox.css" rel="stylesheet"> -->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Bootstrap Test DiMar</title>
+  <style>
+  .parallax {
+      /* The image used */
+      background-image: url("images/Hero_img.png");
 
-    <!-- Bootstrap Core CSS -->
+      /* Set a specific height */
+      min-height: 500px;
 
-    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
-    <link href="css/vendor/colorbox.css" rel="stylesheet">
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  .parallax2 {
+      /* The image used */
+      background-image: url("images/wire_img.png");
 
-    <!-- Theme CSS -->
-    <link href="css/main.boostrapcopy.css" rel="stylesheet">
+      /* Set a specific height */
+      min-height: 500px;
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  </style>
 </head>
 
-<body id="page-top" class="index">
+<body>
+  <div class="navbar-fixed-top">
+    <div class="navbar-header">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">DiMar Electric</a>
-            </div>
+      <a class="navbar-brand" href="#page-top">DiMar Electric</a>
+    </div>
+    <!-- <div class="navbar-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> -->
+      <ul class="navbar-right ">
+  			<li class="active">
+          <a href="#profile">profile</a>
+        </li>
+        <li class="active">
+          <a href="#about">about</a>
+        </li>
+        <li class="active">
+          <a href="mailto:dimarelectric@yahoo.com">e-mail</a>
+        </li>
+  		</ul>
+    </div>
+  </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
+<div id="content">
+  <div class="parallax">
+    <div class="caption">
+      <span class="text">Serving expert commercial and residential electrical {high level services go here}
+      </span>
+    </div>
+  </div>
 
-                    <!-- <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li> -->
+  <section id="home">
+<div class="section">
+    <div class="service-container">
 
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      <div class="section1">
+        <div class="service1">
+          <div class="service-image">
+          </div>
+          <h2>Services 1</h2>
+          <p>Here is a little description</p>
+          </div>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+      </div>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
-    </header>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
+    <div class="service-container">
+      <div class="section1">
+        <div class="service2">
+          <div class="service-image">
+          </div>
+          <h2>Services 1</h2>
+          <p>Here is a little description</p>
+          </div>
         </div>
-    </section>
+      </div>
+
+      <div class="service-container">
+        <div class="section1">
+          <div class="service3">
+            <div class="service-image">
+            </div>
+            <h2>Services 1</h2>
+            <p>Here is a little description</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <div class="parallax">
+
+  </div>
+  <section id="about">
+    <div class="section">
+      <h2>About</h2>
+      <p>Scroll Up and Down this page to see the parallax scrolling effect.
+      This div is just here to enable scrolling.
+      Tip: Try to remove the background-attachment property to remove the scrolling effect.
+      </p>
+    </div>
+  </section>
+
+  <div class="parallax2">
+    <div class="caption2">
+      <span class="text">For over 30 years, DiMar Electric has offered reliable, knowledgeable, and informative service combined with meticulously executed results
+      </span>
+    </div>
+  </div>
+  <section id="profile">
+    <div class="section" >
+        <h2>Profile</h2>
+        <p>
+      Scroll Up and Down this page to see the parallax scrolling effect.
+      This div is just here to enable scrolling.
+      Tip: Try to remove the background-attachment property to remove the scrolling effect.
+      </p>
+    </div>
+  </section>
+
+  <div class="parallax2"></div>
+  <section id="projects">
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>
+      Scroll Up and Down this page to see the parallax scrolling effect.
+      This div is just here to enable scrolling.
+      Tip: Try to remove the background-attachment property to remove the scrolling effect.
+      </p>
+      <div id="contact-forum">
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        	<div class="row">
+        		<label for="name">Your name:</label><br />
+        		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        	</div>
+        	<div class="row">
+        		<label for="email">Your email:</label><br />
+        		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        	</div>
+        	<div class="row">
+        		<label for="message">Your message:</label><br />
+        		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        	</div>
+        	<input id="submit_button" type="submit" value="Send email" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+
+</div>
+
+<!-- <div id="contact-forum">
+  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  	<div class="row">
+  		<label for="name">Your name:</label><br />
+  		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+  	</div>
+  	<div class="row">
+  		<label for="email">Your email:</label><br />
+  		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+  	</div>
+  	<div class="row">
+  		<label for="message">Your message:</label><br />
+  		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+  	</div>
+  	<input id="submit_button" type="submit" value="Send email" />
+  </form>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/jquery.colorbox-min.js"></script>
+<script>
+  $(function() {
+    $('.img-block a').colorbox({
+      maxWidth: '80%',
+      maxHeight: '80%',
+      opacity: '0.9',
+    });
+  });
+  $(document).ready(function () {
+			  $(".navbar-toggle").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+		});
+</script>
+
+</body>
+</html>

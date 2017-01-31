@@ -53,13 +53,21 @@
     </div>
     <div class="navbar-collapse collapse ">
       <ul class="nav navbar-nav navbar-right ">
-  			<li class="active"><a href="#profile">profile</a>
+        <div id="myTopnav">
+  			<li class="active">
+          <a href="#profile">profile</a>
         </li>
-        <li class="active"><a href="#about">about</a>
+        <li class="active">
+          <a href="#about">about</a>
         </li>
-        <li class="active"><a href="mailto:dimarelectric@yahoo.com">e-mail</a>
+        <li class="active">
+          <a href="mailto:dimarelectric@yahoo.com">e-mail</a>
         </li>
+        <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
   		</ul>
+     </div>
     </div>
   </div>
 
@@ -170,6 +178,14 @@
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/jquery.colorbox-min.js"></script>
 <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
   $(function() {
     $('.img-block a').colorbox({
       maxWidth: '80%',
