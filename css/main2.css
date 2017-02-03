@@ -76,9 +76,6 @@ body, html {
   display: none;
 }
 
-  list-style: none;
-  display: inline;
-}
 
 .navbar-fixed-top ul li  {
 }
@@ -114,8 +111,6 @@ body, html {
 
 
 
-  @media screen and (max-width:680px) {
-  ul.navbar-right li a:hover {background-color: #555;}
 
 
 
@@ -125,15 +120,8 @@ body, html {
     float: right;
     display: inline-block;
   }
-}
 
-@media screen and (max-width:680px) {
-  ul.navbar-right.responsive {position: relative;}
-  ul.navbar-right.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+
   ul.navbar-right. li {
     float: none;
     display: inline;
@@ -142,12 +130,11 @@ body, html {
     display: block;
     text-align: left;
   }
-}
-  }
+
 
     /* ------------ navbar ------------ */
 
-    .navbar-inverse .navbar-toggle .icon-bar {
+    /*.navbar-inverse .navbar-toggle .icon-bar {
         background-color: black;
     }
 
@@ -177,7 +164,7 @@ body, html {
     .navbar-toggle.active .icon-bar:nth-of-type(3) {
     	  top: -6px;
     	  transform: rotate(-45deg);
-    }
+    }*/
 
 
 
@@ -208,7 +195,7 @@ body, html {
      display: inline-block;
    }
 
- .cross div {
+ /*.cross div {
   position:relative;
   width:46px;
   height:46px;
@@ -230,9 +217,9 @@ body, html {
       top:36px;
     }
   }
-}
+}*/
    /*// CROSS*/
-.cross span {
+/*.cross span {
   // Phase 2 - OUT
   -webkit-transition: -webkit-transform 0.35s ease-out 0s, opacity 0.35s ease-out 0.35s, top 0.35s ease-out 0.35s;
   -moz-transition: -webkit-transform 0.35s ease-out 0s, opacity 0.35s ease-out 0.35s, top 0.35s ease-out 0.35s;
@@ -262,4 +249,4 @@ body, html {
       opacity:0;
     }
   }
-}
+}*/
