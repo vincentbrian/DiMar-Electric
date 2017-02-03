@@ -54,6 +54,9 @@ body, html {
   background: #101D2D;
   width: 100%;
 }
+.navbar-fixed-top ul li {
+    display: inline;
+}
 .navbar-fixed-top ul li a {
     text-decoration: none;
     padding: 10px;
@@ -76,9 +79,6 @@ body, html {
   display: none;
 }
 
-
-.navbar-fixed-top ul li  {
-}
 .caption {
     position: absolute;
     left: 0;
