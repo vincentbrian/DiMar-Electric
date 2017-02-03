@@ -107,14 +107,14 @@ body, html {
 
 
 
-  }
+
   @media screen and (max-width:680px) {
   ul.navbar-right li a:hover {background-color: #555;}
 
-  ul.navbar-right li.icon {display: none;}
+
 
   @media screen and (max-width:680px) {
-    ul.navbar-right li:not(:first-child) {display: none;}
+    ul.navbar-right li {display: none;}
     ul.navbar-right li.icon {
     float: right;
     display: inline-block;
@@ -140,9 +140,7 @@ body, html {
   }
 
     /* ------------ navbar ------------ */
-  .navbar-right  {
-      display: none;
-    }
+
     .navbar-inverse .navbar-toggle .icon-bar {
         background-color: black;
     }
@@ -197,9 +195,7 @@ body, html {
   }
 
   /* ------------ hamburger ------------ */
-  ul.navbar-right li {
-   display: none;
- }
+
 
   ul.navbar-right li.icon {
      float: right;
