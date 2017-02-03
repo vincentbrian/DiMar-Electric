@@ -28,7 +28,6 @@ body, html {
 
 .service-container {
   display: inline-block;
-
   width: 300px;
   margin: 10px;
 }
@@ -106,10 +105,16 @@ body, html {
     line-height: 50px;
   }
 
+  @media screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)  {
 
-
-
-
+  .service-container {
+        display: inline-block;
+        width: 300px;
+        margin: 0px;
+  }
+}
 
 
 
@@ -122,16 +127,16 @@ body, html {
   }
 
 
-  ul.navbar-right. li {
-    float: none;
-    display: inline;
+  ul.navbar-right  li {
+   float: none;
+   display: inline;
   }
-  ul.navbar-right.li a {
+  ul.navbar-right li a {
     display: block;
     text-align: left;
   }
 
-
+}
     /* ------------ navbar ------------ */
 
     /*.navbar-inverse .navbar-toggle .icon-bar {
