@@ -48,12 +48,15 @@
 
       <a class="navbar-brand" href="#page-top">DiMar Electric</a>
     </div>
-    <div class="cross">
+    <!-- <div class="cross">
       <span class="top"></span>
       <span class="middle"></span>
       <span class="bottom"></span>
-    </div>
-      <ul class="navbar-right ">
+    </div> -->
+    <ul class="topnav" id="myTopnav">
+
+
+      <ul class="navbar-right" id="myNavbar-right">
   			<li class="active">
           <a href="#profile">profile</a>
         </li>
@@ -63,9 +66,9 @@
         <li class="active">
           <a href="mailto:dimarelectric@yahoo.com">e-mail</a>
         </li>
-        <!-- <li class="icon">
+        <li class="icon">
     <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-  </li> -->
+  </li>
   		</ul>
     </div>
   </div>
@@ -228,6 +231,7 @@
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/jquery.colorbox-min.js"></script>
 <script>
+
 function myFunction() {
     var x = document.getElementById("myNavbar-right");
     if (x.className === "navbar-right") {

@@ -108,8 +108,13 @@ body, html {
 
 
   }
-@media only screen and (max-width: 600px) {
-
+  @media screen and (max-width:680px) {
+    ul.navbar-right li:not(:first-child) {display: none;}
+    ul.navbar-right li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
 
     /* ------------ navbar ------------ */
   .navbar-right  {
