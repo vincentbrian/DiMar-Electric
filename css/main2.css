@@ -72,11 +72,16 @@ body, html {
 
 }
 
-.navbar-fixed-top ul li  {
+.icon a {
+  display: none;
+}
 
   list-style: none;
   display: inline;
 }
+
+.navbar-fixed-top ul li  {
+
 .caption {
     position: absolute;
     left: 0;
