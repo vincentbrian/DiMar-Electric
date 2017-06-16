@@ -129,7 +129,7 @@ body, html {
 
   ul.navbar-right  li {
    float: none;
-   display: inline;
+
   }
   ul.navbar-right li a {
     display: block;
@@ -137,7 +137,31 @@ body, html {
   }
 
 }
-    /* ------------ navbar ------------ */
+    /* ------------ navbar w3school example ------------ */
+    ul.navbar-right li {
+ul.navbar-right li.icon {
+  float: right;
+  display: inline-block;
+}
+
+    ul.topnav.responsive {position: relative;}
+ ul.topnav.responsive li.icon {
+   position: absolute;
+   right: 0;
+   top: 0;
+ }
+ ul.topnav.responsive li {
+   float: none;
+   display: inline;
+ }
+ ul.topnav.responsive li a {
+   display: block;
+   text-align: left;
+ }
+
+
+
+
 
     /*.navbar-inverse .navbar-toggle .icon-bar {
         background-color: black;
