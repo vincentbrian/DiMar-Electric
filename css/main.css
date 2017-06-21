@@ -25,6 +25,10 @@ body, html {
 
 }
 
+.text {
+  position: fixed;
+  top:50%;
+}
 
 #navbar-fixed-top {
   position: fixed;

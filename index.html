@@ -56,17 +56,17 @@
       </button> -->
       <ul class="navbar-right ">
   			<li class="active">
-          <a href="#profile">profile</a>
+          <a href="#profile" data-page-link>profile</a>
         </li>
         <li class="active">
-          <a href="#about">about</a>
+          <a href="#about" data-page-link>about</a>
         </li>
         <li class="active">
           <a href="mailto:dimarelectric@yahoo.com">e-mail</a>
         </li>
   		</ul>
     </div>
-  </div>
+
 
 <div id="content">
   <div class="parallax">
@@ -122,6 +122,7 @@
 
   </div>
   <section id="about">
+    </section>
     <div class="section">
       <h2>About</h2>
       <p>Scroll Up and Down this page to see the parallax scrolling effect.
@@ -129,15 +130,15 @@
       Tip: Try to remove the background-attachment property to remove the scrolling effect.
       </p>
     </div>
-  </section>
+
 
   <div class="parallax2">
     <div class="caption2">
+
       <span class="text">For over 30 years, DiMar Electric has offered reliable, knowledgeable, and informative service combined with meticulously executed results
       </span>
     </div>
   </div>
-  <section><a href="profile"></a></section>
   <section id="profile">
     <div class="section" >
         <h2>Profile</h2>
@@ -227,18 +228,31 @@
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/jquery.colorbox-min.js"></script>
 <script>
+
   $(function() {
+// colorbox
     $('.img-block a').colorbox({
       maxWidth: '80%',
       maxHeight: '80%',
       opacity: '0.9',
     });
+
+// hamburger icon
+    $(".navbar-toggle").on("click", function () {
+        $(this).toggleClass("active");
+    });
+
+// page link scrolling
+
+    $(".navbar-right a[data-page-link]").on("click", function() {
+      var href = $(this).attr("href"); //grab href of "this" element
+      // console.log(href);
+
+      $("body").animate({
+        scrollTop: $(href).offset().top -67 //offset by 67 px
+      });
+    });
   });
-  $(document).ready(function () {
-			  $(".navbar-toggle").on("click", function () {
-				    $(this).toggleClass("active");
-			  });
-		});
 </script>
 
 </body>
