@@ -93,7 +93,7 @@ body, html {
 
 
 .caption2 {
-    position: absolute;
+    /*position: absolute;*/
     left: 0;
     bottom: -44%;
     width: 100%;
