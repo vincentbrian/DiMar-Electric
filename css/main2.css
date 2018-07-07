@@ -9,27 +9,52 @@ body, html {
   background-color:#05756b;
 }
 
-#home .section1 > h2 > p {
+/*#home .section1 > h2 > p {
 
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 0px;
   padding-bottom: 0px;
+}*/
+
+p {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+.text {
+
+}
+.inner-anchor {
+  padding:  67px 0px 0px 0px;
 }
 
 .section {
+
+  padding: 30px 0px;
   text-align: center;
-  height: 250px;
+  margin: auto 20px;
   color: #113361;
-  padding-top: 30px;
+
+
+}
+.section2 {
+  padding: 30px 0px;
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  color: #113361;
+
 
 }
 
 
 .service-container {
   display: inline-block;
-  width: 300px;
-  margin: 10px;
+  width: 30%;
+  margin: 10px auto;
 }
 
 .section1 {
@@ -81,29 +106,29 @@ body, html {
 .caption {
     position: absolute;
 
-    width: 100%;
+    width: 80%;
     text-align: center;
     color: white;
     font-family: Montserrat-Regular;
     font-size: 36px;
     color: #F1FFFF;
     line-height: 50px;
-    padding-top: 240px;
+    padding: 100px 100px;
   }
 
+  .caption1 {
+      position: absolute;
+      margin-top: 100px;
+      width: 80%;
+      text-align: center;
+      color: white;
+      font-family: Montserrat-Regular;
+      font-size: 36px;
+      color: #F1FFFF;
+      line-height: 50px;
+      padding: 100px 100px;
+    }
 
-.caption2 {
-    /*position: absolute;*/
-    left: 0;
-    bottom: -44%;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-family: Montserrat-Regular;
-    font-size: 36px;
-    color: #F1FFFF;
-    line-height: 50px;
-  }
 
   @media screen
   and (min-device-width : 768px)
@@ -202,7 +227,7 @@ ul.navbar-right li.icon {
   .section {
     height: auto;;
   }
-
+/*
   .caption2 {
   position: relative;;
   bottom: 620px;
@@ -214,7 +239,7 @@ ul.navbar-right li.icon {
   color: #F1FFFF;
   line-height: 50px;
 
-  }
+  }*/
 
   /* ------------ hamburger ------------ */
 
