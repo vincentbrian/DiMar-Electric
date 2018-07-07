@@ -28,7 +28,8 @@ h2 {
 
 }
 .inner-anchor {
-  padding:  67px 0px 0px 0px;
+  margin-top: -67px;
+  padding-top:  67px;
 }
 
 .container {
