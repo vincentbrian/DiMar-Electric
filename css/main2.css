@@ -18,22 +18,66 @@ body, html {
 }*/
 
 p {
+  font-size: 14px;
   margin: 0px;
+  display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
 }
 
 h2 {
   margin: 0px;
 }
-.text {
+.button {
 
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button5 {
+    background-color: ;
+    color: #101D2D;
+    border: 2px solid #101D2D;
+}
+
+.button5:hover {
+    background-color: #101D2D;
+    color: white;
+}
+.row {
+    flex-direction: row;
+    display: flex;
+    padding: 10px;
+    margin: 0px auto;
+    width:100%;
+    height:100%;
+}
+
+.col-4 {
+  width: 30%;
+}
+.col-6 {
+  width: 50%;
 }
 .inner-anchor {
   margin-top: -67px;
   padding-top:  67px;
 }
-
+.service-container {
+  max-width:
+}
 .container {
-  max-width: 768px;
+
   display: flex;
   margin: 0 auto;
 }
@@ -42,7 +86,7 @@ h2 {
 
   padding: 30px 0px;
   text-align: center;
-  margin: auto 20px;
+
   color: #101D2D;
 
 
@@ -55,6 +99,9 @@ h2 {
   color: #101D2D;
 
 
+}
+.radio-ra-2 img {
+  width: 400px;
 }
 .service-image {
   display: inline-block;
@@ -86,8 +133,14 @@ h2 {
   color: #F1FFFF;
   text-decoration: none;
 }
+.navbar-brand img {
+  height: 25px;
+}
 
 .navbar-fixed-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 100;
   position: fixed;
   background: #101D2D;
@@ -101,11 +154,15 @@ h2 {
     padding: 10px;
 
 }
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+}
 .navbar-right a {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  color: #F1FFFF;
+  color: white;
   letter-spacing: 1.45px;
 }
 .navbar-right {
@@ -120,7 +177,18 @@ h2 {
 
 .caption {
     position: absolute;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: Montserrat-Regular;
+    font-size: 36px;
+    line-height: 50px;
+    padding: 100px 100px;
+  }
 
+.caption1 {
+    position: absolute;
+    margin-top: 100px;
     width: 80%;
     text-align: center;
     color: white;
@@ -131,18 +199,16 @@ h2 {
     padding: 100px 100px;
   }
 
-  .caption1 {
-      position: absolute;
-      margin-top: 100px;
-      width: 80%;
-      text-align: center;
-      color: white;
-      font-family: Montserrat-Regular;
-      font-size: 36px;
-      color: #F1FFFF;
-      line-height: 50px;
-      padding: 100px 100px;
-    }
+.caption2 {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-family: Montserrat-Regular;
+    font-size: 36px;
+    line-height: 50px;
+    padding: 100px 100px;
+  }
 
 
   @media screen
